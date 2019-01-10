@@ -9,7 +9,7 @@ import Login from './components/auth/Login';
 import firebase from "./firebase"
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import {composewithDevTools} from 'redux-devtools-extension';
+import {composeWithDevTools} from 'redux-devtools-extension';
 import rootReducer from "./reducers";
 import { setUser } from "./actions";
 
