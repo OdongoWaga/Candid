@@ -5,11 +5,15 @@ import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Register from './components/auth/Register';
+import Login from './components/auth/Login';
 
 const Root =() => (
 <Router>
     <Switch>
-        <Route path="/" component={App} />
+        <Route exact path="/" component={App} />
+        <Route exact path="/login" component={Login} />
+        <Route  exact path="/register" component={Register} />
     </Switch>
 </Router>
 )
