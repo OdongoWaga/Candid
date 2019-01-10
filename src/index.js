@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-dom'
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
-
+import firebase from "./firebase"
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 import {composewithDevTools} from 'redux-devtools-extension';
