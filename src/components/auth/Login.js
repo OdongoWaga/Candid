@@ -61,8 +61,8 @@ class Login extends React.Component {
       <Grid textAlign="center" verticalAlign="middle" className="app">
         <Grid.Column style={{ maxWidth: 450 }}>
           <Header as="h1" icon color="violet" textAlign="center">
-            <Icon name="comments" color="violet" />
-            Login to Candid
+            <Icon name="code branch" color="violet" />
+            Login to DevChat
           </Header>
           <Form onSubmit={this.handleSubmit} size="large">
             <Segment stacked>
