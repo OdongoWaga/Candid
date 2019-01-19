@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import "firebase/auth";
 import "firebase/database";
 import "firebase/storage"; 
-import "semantic-ui-css/semantic.min.css"
+
 
 var config = {
     apiKey: "AIzaSyC32d1SosJdLz8Nr5n7pu-ISVYol9GSUJo",
